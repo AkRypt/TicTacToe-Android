@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#af011b"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:rowCount="3"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:background="@android:color/black"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="50sp"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+
+            android:textSize="50sp"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:background="@android:color/black"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="50sp"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+
+            android:textSize="50sp"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:background="@android:color/black"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="50sp"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+
+            android:textSize="50sp"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:background="@android:color/black"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="50sp"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+
+            android:textSize="50sp"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:background="@android:color/black"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="50sp"
+            android:layout_columnWeight="1"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Reset"
+        android:textSize="30sp"
+        android:onClick="reset"
+        />
+
+    <TextView
+        android:id="@+id/notif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/reset"
+        android:text="Player 1's Turn"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>
